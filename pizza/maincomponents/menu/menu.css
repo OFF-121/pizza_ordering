@@ -1,0 +1,58 @@
+img{
+    width:250px;
+    height:180px;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    padding: 25px;
+}
+
+.menu-container{
+    background-color: white;
+    width:250px;
+    height:280px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 15px rgb(207, 207, 207);
+    border: 1px solid rgb(95, 95, 95);
+    margin: 40px;
+    transition: 400ms;
+}
+
+.menu-container:hover{
+    box-shadow: 10px 10px 20px 25px rgb(207, 207, 207);
+}
+
+
+
+
+
+.itemName{
+    font-family: Franklin Gothic;
+    font-weight: 800;
+    font-size: 17px;
+    letter-spacing: 2px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    padding:5px;
+}
+
+.itemPrice{
+    font-family: Franklin Gothic;
+    font-size: 15px;
+    font-weight: 500;
+    padding:5px;
+    display: flex;
+    justify-content: center;
+}
+
+.name{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    font-family: Papyrus;
+    
+}

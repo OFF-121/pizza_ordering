@@ -1,0 +1,53 @@
+.contact-container{
+    display: flex;
+    
+}
+
+
+.contact-img{
+    width:65%;
+    height:750px;
+}
+
+.contat-name{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    padding:30px;
+}
+
+.contact-Labelname ,.contact-Labelemail, .contact-message{
+    font-size:20px;
+    font-family: Engravers MT;
+    padding-top: 20px;
+}
+
+.contact-name, .contact-email{
+    font-size: 18px;
+    width:300px;
+    height:30px;
+    border:0px;
+    border-bottom:2px solid black;
+}
+
+.contact-message{
+    width:300px;
+}
+
+.contectus{
+    position: relative;
+    top:-50px;
+    font-weight: 800;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+    text-decoration: underline black;
+}

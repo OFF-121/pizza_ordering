@@ -1,0 +1,25 @@
+.about-img{
+    width:100%;
+    height:500px;
+}
+
+.abt-container{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.abt-name{
+    display: flex;
+    font-size: 30px;
+    font-family: Georgia;
+    font-weight: 800;
+}
+
+.abt-lorem{
+    font-family: Georgia;
+    padding-top: 10px;
+    font-size: 20px;
+    width:70%;
+}
